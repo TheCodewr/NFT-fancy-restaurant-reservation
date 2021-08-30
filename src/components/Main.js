@@ -20,7 +20,7 @@ this.props.mint(_customerName, _customerGests,_dinerDate,_customerAddress)
                    <input ref={(input) => { this.customerName = input }} id="customerName" type="text" className="form-control" placeholder="Customer name" requierd="true" />
                    <input ref={(input) => { this.customerAddress = input }} id="customerAddress" type="text" className="form-control" placeholder="Customer 0x address" requierd="true" />
                    <input ref={(input) => { this.customerGests = input }}  id="customerGests" type="text" className="form-control" placeholder="People expected (Number)"  requierd="true"/>
-                   <input ref={(input) => { this.dinerDate = input }}  id="dinerDate" type="text" className="form-control" placeholder="Diner Date (Unix ex : 1630335601000)"  requierd="true"/>
+                   <input ref={(input) => { this.dinerDate = input }}  id="dinerDate" type="text" className="form-control" placeholder="Diner Date (Unix ex : 1630335601)"  requierd="true"/>
                    </div>
                    <button type="submit" className="btn btn-primary btn-block">Submit</button>
             </form>
